@@ -1,0 +1,3 @@
+result = inter lang1 lang2
+
+print (concat {a} result)

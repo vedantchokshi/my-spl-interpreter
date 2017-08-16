@@ -1,0 +1,5 @@
+result = inter lang1 lang2
+print (union result lang3)
+
+result = union lang2 lang3
+print (inter lang1 result)

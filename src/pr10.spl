@@ -1,0 +1,4 @@
+result1 = union lang1 lang2
+result2 = inter lang1 lang2
+
+print (concat result1 result2)

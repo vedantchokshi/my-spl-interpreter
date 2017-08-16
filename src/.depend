@@ -1,0 +1,10 @@
+lang.cmi :
+parser.cmi : lang.cmi
+lang.cmo : lang.cmi
+lang.cmx : lang.cmi
+lexer.cmo : parser.cmi
+lexer.cmx : parser.cmx
+main.cmo : parser.cmi lexer.cmo lang.cmi
+main.cmx : parser.cmx lexer.cmx lang.cmx
+parser.cmo : lang.cmi parser.cmi
+parser.cmx : lang.cmx parser.cmi

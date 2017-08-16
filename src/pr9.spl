@@ -1,0 +1,4 @@
+result1 = concat {a} lang1
+result2 = concat lang2 b*
+
+print (union result1 result2)                                                
